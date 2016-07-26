@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+/* Developed By Jorcus.com */
+html {
+	background-color: #646464;
+	width: 920px;
+	height: auto;
+	margin: auto;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+body {
+	
+	border-radius: 10px;
+	background-color: #98fe98;
+	padding-bottom: 35px;
+}
+
+h1 {
+	font-size: 2em;	
+}
+
+h2 {
+	font-size: 1.50em;
+}
+
+h3 {
+	font-size: 1.15em;
+}
+
+.header {
+	height: auto;
+	width: auto;
+	background-color: #00ff7f;
+	padding: 3px;
+	border-radius: 10px 10px 0 0;
+} 
+
+.article {
+	margin: 0 30px 0 30px;
+}
+
+.center {
+	text-align: center;
+}
+
+.img-width {
+	width: 100%;
+}
+
+.article + .article {
+	margin-top: 50px;	
+}
+
+@media screen and (max-width: 935px) {
+	html {
+		width: auto;
+	}
+}
+
